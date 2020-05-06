@@ -1,5 +1,7 @@
 # modifiedOKVIS
 
+email:lingyi.s@outlook.com
+
 modified the OKVIS source code for outputing the trajectory in a .txt file
 
 the modifications is in the \okvis\okvis_apps\src\okvis_app_synchronous.cpp
