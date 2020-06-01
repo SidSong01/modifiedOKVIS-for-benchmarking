@@ -9,27 +9,36 @@ the purpose of it is for evaluating and comparing the performace of different Vi
 
 the evaluation tool: https://github.com/MichaelGrupp/evo
 
-## the output trajectory is in .txt file with tum data format.
+## The output trajectory is in .txt file with tum data format.
+---
 
 ((time, t x , t y , t z , q x , q y , q z , q w ))
 
-## see the trajectory_01.txt
+* Each line in the text file contains a single pose.
+* The format of each line is 'timestamp tx ty tz qx qy qz qw'
+* timestamp (float) gives the number of seconds since the Unix epoch.
+* tx ty tz (3 floats) give the position of the optical center of the color camera with respect to the world origin as defined by the motion capture system.
+* qx qy qz qw (4 floats) give the orientation of the optical center of the color camera in form of a unit quaternion with respect to the world origin as defined by the motion capture system.
 
-this is the output from the euroc dataset, mh01
+### See the `trajectory_01.txt` for a sample review.
 
-## for running the okvis
+This is the output from the euroc dataset, mh01, in tum format.
+
+## How to run the okvis
+--
 
 please refer to the original repository.
 
-## for running the monocular version of OKVIS
+## How to run the monocular version of OKVIS
+---
 
-modify the config file in okvis--comment one of the camera calibartion infomation
+Modify the config file in okvis--comment one of the camera calibartion infomation, then it will run the monocular version.
 
-## example for running stereo and monocular okvis in euroc dataset
+## Example for running stereo and monocular okvis in euroc dataset.
 
 ![image](https://github.com/SidSong01/modifiedOKVIS/blob/master/example.png)
 
-## example for the evaluation results
+## Example for the evaluation results
 
 This is the exampel on Main Hall 01 dataset, more functions of the evaluation tool can be found in https://github.com/MichaelGrupp/evo
 
