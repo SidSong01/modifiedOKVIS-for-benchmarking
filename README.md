@@ -1,12 +1,11 @@
-# modifiedOKVIS
+# Modified OKVIS
+---
 
-email:lingyi.s@outlook.com
-
-modified the OKVIS source code for outputing the trajectory in a .txt file
+Modified the OKVIS source code for outputing the trajectory in a .txt file
 
 the modifications is in the \okvis\okvis_apps\src\okvis_app_synchronous.cpp
 
-the function of this is for evaluating the performace.
+the purpose of it is for evaluating and comparing the performace of different Visual odometry algorithms.
 
 the evaluation tool: https://github.com/MichaelGrupp/evo
 
@@ -31,6 +30,9 @@ modify the config file in okvis--comment one of the camera calibartion infomatio
 ![image](https://github.com/SidSong01/modifiedOKVIS/blob/master/example.png)
 
 ## example for the evaluation results
+
+This is the exampel on Main Hall 01 dataset, more functions of the evaluation tool can be found in https://github.com/MichaelGrupp/evo
+
 ![image2](https://github.com/SidSong01/modifiedOKVIS/blob/master/MH_01.png)
 
 ```
