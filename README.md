@@ -25,9 +25,9 @@ the evaluation tool: https://github.com/MichaelGrupp/evo
 This is the output from the euroc dataset, mh01, in tum format.
 
 ## How to run the okvis
---
+---
 
-please refer to the original repository.
+Please refer to the original repository.
 
 ## How to run the monocular version of OKVIS
 ---
@@ -40,7 +40,9 @@ Modify the config file in okvis--comment one of the camera calibartion infomatio
 
 ## Example for the evaluation results
 
-This is the exampel on Main Hall 01 dataset, more functions of the evaluation tool can be found in https://github.com/MichaelGrupp/evo
+This is the exampel on Main Hall 01 dataset, more functions of the evaluation tool can be found in [evo](https://github.com/MichaelGrupp/evo).
+
+The comparision betweent the different algorithms, other results like RMSE, Std, etc., can alos be abtained.
 
 ![image2](https://github.com/SidSong01/modifiedOKVIS/blob/master/MH_01.png)
 
