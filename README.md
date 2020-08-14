@@ -46,6 +46,9 @@ The comparision betweent the different algorithms, other results like RMSE, Std,
 
 ![image2](https://github.com/SidSong01/modifiedOKVIS/blob/master/MH_01.png)
 
+
+![image2](https://github.com/SidSong01/modifiedOKVIS/blob/master/RMSE.png)
+
 ```
 dataset is the euroc mh01
 ```
