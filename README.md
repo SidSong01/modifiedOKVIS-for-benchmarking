@@ -10,7 +10,9 @@ the purpose of it is for evaluating and comparing the performace of different Vi
 the evaluation tool: https://github.com/MichaelGrupp/evo
 
 ## Group Members: 
+
 ROVIO--Zhi Fang Tan: zhifant@g.clemson.edu
+
 VINS_Mono--Kexuan Zhai: kzhai@g.clemson.edu 
 
 ## The output trajectory is in .txt file with tum data format.
