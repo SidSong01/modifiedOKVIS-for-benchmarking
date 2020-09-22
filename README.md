@@ -1,3 +1,15 @@
+License information:
+
+These codes are baed on the original OKVIS repositorie.
+
+The source code of OKVIS is from: https://github.com/ethz-asl/okvis
+
+[1] Stefan Leutenegger, Simon Lynen, Michael Bosse, Roland Siegwart and Paul Timothy Furgale. Keyframe-based visual–inertial odometry using nonlinear optimization. The International Journal of Robotics Research, 2015.
+
+[2] Stefan Leutenegger. Unmanned Solar Airplanes: Design and Algorithms for Efficient and Robust Autonomous Operation. Doctoral dissertation, 2014.
+
+[3] Stefan Leutenegger, Paul Timothy Furgale, Vincent Rabaud, Margarita Chli, Kurt Konolige, Roland Siegwart. Keyframe-Based Visual-Inertial SLAM using Nonlinear Optimization. In Proceedings of Robotics: Science and Systems, 2013.
+
 # Modified OKVIS
 ---
 
