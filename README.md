@@ -1,6 +1,6 @@
 License information:
 
-These codes are baed on the original OKVIS repositorie.
+These codes are baed on the original OKVIS repository.
 
 The source code of OKVIS is from: https://github.com/ethz-asl/okvis
 
